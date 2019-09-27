@@ -1,0 +1,19 @@
+{
+    "name": "overtrue\/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "senlong",
+            "email": "2720204561@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overtrue\\Weather\\": "src"
+        }
+    }
+}
